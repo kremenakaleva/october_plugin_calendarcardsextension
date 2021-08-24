@@ -1,0 +1,24 @@
+1.0.1: 'First version of Calendarcardsextension'
+1.0.2:
+    - 'Updated calendar entries'
+    - update_calendar_entries_table.php
+1.0.3:
+    - 'Added relation table'
+    - create_pensoft_cardprofiles_entries_table.php
+1.0.4:
+    - 'Created table pensoft_calendarcardsextension_eventtypes'
+    - builder_table_create_pensoft_calendarcardsextension_eventtypes.php
+1.0.5:
+    - 'Updated calendar entries'
+1.0.6:
+    - 'Updated cardprofiles table add column keynote boolean'
+    - update_cardprofiles_table.php
+1.0.7:
+    - 'Created table pensoft_calendarcardsextension_sections'
+    - builder_table_create_pensoft_calendarcardsextension_sections.php
+1.0.8:
+    - 'Created table pensoft_calendarcardsextension_sections'
+    - builder_table_create_pensoft_calendarcardsextension_sections_2.php
+1.0.9:
+    - 'Created table pensoft_calendarcardsextension_sections_speakers'
+    - builder_table_create_pensoft_calendarcardsextension_sections_speakers.php

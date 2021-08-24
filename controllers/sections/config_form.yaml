@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Section
+
+# Model Form Field configuration
+form: $/pensoft/calendarcardsextension/models/sections/fields.yaml
+
+# Model Class name
+modelClass: Pensoft\Calendarcardsextension\Models\Sections
+
+# Default redirect location
+defaultRedirect: pensoft/calendarcardsextension/sections
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: pensoft/calendarcardsextension/sections/update/:id
+    redirectClose: pensoft/calendarcardsextension/sections
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: pensoft/calendarcardsextension/sections
+    redirectClose: pensoft/calendarcardsextension/sections
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

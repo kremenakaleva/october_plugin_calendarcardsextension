@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Eventtype
+
+# Model Form Field configuration
+form: $/pensoft/calendarcardsextension/models/eventtype/fields.yaml
+
+# Model Class name
+modelClass: Pensoft\Calendarcardsextension\Models\Eventtype
+
+# Default redirect location
+defaultRedirect: pensoft/calendarcardsextension/eventtypes
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: pensoft/calendarcardsextension/eventtypes/update/:id
+    redirectClose: pensoft/calendarcardsextension/eventtypes
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: pensoft/calendarcardsextension/eventtypes
+    redirectClose: pensoft/calendarcardsextension/eventtypes
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

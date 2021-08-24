@@ -1,0 +1,22 @@
+columns:
+    entry_id:
+        label: entry_id
+        type: number
+    title:
+        label: title
+        type: text
+    description:
+        label: description
+        type: text
+    start:
+        label: start
+        type: text
+    end:
+        label: end
+        type: text
+    link:
+        label: link
+        type: text
+    moderator:
+        label: moderator
+        type: text

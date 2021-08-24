@@ -1,0 +1,41 @@
+fields:
+    title:
+        label: 'Section title'
+        span: auto
+        type: text
+    entry:
+        label: Event
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+        comment: 'Which event to attach the section to'
+    description:
+        label: Description
+        size: large
+        span: left
+        type: richeditor
+    speakers:
+        label: Speakers
+        nameFrom: names
+        descriptionFrom: description
+        span: auto
+        type: relation
+    start:
+        label: Start
+        mode: datetime
+        span: auto
+        type: datepicker
+    link:
+        label: Link
+        span: auto
+        type: text
+    end:
+        label: End
+        mode: datetime
+        span: auto
+        type: datepicker
+    moderator:
+        label: Moderator
+        span: auto
+        type: text
