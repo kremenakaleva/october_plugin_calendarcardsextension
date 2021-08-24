@@ -22,3 +22,9 @@
 1.0.9:
     - 'Created table pensoft_calendarcardsextension_sections_speakers'
     - builder_table_create_pensoft_calendarcardsextension_sections_speakers.php
+1.0.10:
+    - 'Updated table pensoft_calendarcardsextension_sections_speakers'
+1.0.11:
+    - 'Updated table pensoft_calendarcardsextension_sections_speakers'
+1.0.12:
+    - 'Final version'
